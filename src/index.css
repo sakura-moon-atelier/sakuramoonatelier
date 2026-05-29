@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FAF7F2;
+    color: #3D3450;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-petal text-white font-nunito font-bold text-sm px-7 py-3 rounded-full
+           transition-all duration-200 hover:bg-petal-dark hover:-translate-y-0.5
+           active:scale-95 cursor-pointer inline-block;
+  }
+  .btn-outline {
+    @apply bg-transparent border border-petal/60 text-navy font-nunito font-semibold
+           text-sm px-6 py-3 rounded-full transition-all duration-200
+           hover:border-petal hover:bg-petal/10 active:scale-95 cursor-pointer inline-block;
+  }
+  .btn-outline-light {
+    @apply bg-transparent border border-cream/40 text-cream font-nunito font-semibold
+           text-sm px-6 py-3 rounded-full transition-all duration-200
+           hover:border-petal hover:bg-petal/10 active:scale-95 cursor-pointer inline-block;
+  }
+  .card {
+    @apply bg-white border border-petal/30 rounded-2xl
+           transition-all duration-300 hover:-translate-y-1;
+  }
+  .section-title {
+    @apply text-center mb-10;
+  }
+  .section-title h2 {
+    @apply font-nunito font-bold text-2xl text-navy mb-2;
+  }
+  .divider {
+    @apply text-center text-petal text-lg tracking-widest mt-1;
+  }
+  .tag-pill {
+    @apply bg-petal/15 border border-petal/40 text-navy
+           font-nunito font-bold text-xs px-4 py-1 rounded-xl;
+  }
+  .nav-link {
+    @apply font-nunito font-semibold text-sm text-muted pb-0.5
+           border-b-2 border-transparent transition-all duration-200
+           hover:text-navy hover:border-petal cursor-pointer;
+  }
+  .nav-link.active {
+    @apply text-navy border-petal;
+  }
+  .platform-badge {
+    @apply bg-cream border border-petal/30 text-muted
+           font-nunito font-bold text-xs px-3 py-1 rounded-lg;
+  }
+  .season-pill {
+    @apply rounded-lg px-3 py-2 font-nunito font-bold text-xs;
+  }
+}
+
+/* Petal fall */
+.petal-fall {
+  position: absolute;
+  top: -20px;
+  animation: fall linear infinite;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Star twinkle with random delays via nth-child */
+.star-dot {
+  position: absolute;
+  border-radius: 50%;
+  background: #F5C842;
+  animation: twinkle ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero gradient */
+.hero-gradient {
+  background: linear-gradient(
+    180deg,
+    #1A1F4B 0%,
+    #2D2460 35%,
+    #3D3085 65%,
+    #6B4B8A 100%
+  );
+}
+
+/* Mobile menu */
+.mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.mobile-menu.open {
+  max-height: 300px;
+}
