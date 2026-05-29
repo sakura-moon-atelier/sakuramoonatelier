@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // If deploying to username.github.io (user site), set base: '/'
 export default defineConfig({
   plugins: [react()],
-  base: '/sakura-moon-atelier/',
+  base: '/sakura-moon-atelier/sakuramoonatelier/',
 })
