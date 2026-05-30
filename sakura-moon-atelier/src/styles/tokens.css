@@ -1,0 +1,208 @@
+/* ═══════════════════════════════════════════════════════════
+   SAKURA MOON ATELIER — Design Token System v3
+   Light: Sakura Garden — blossom pinks, bark browns, spring sky
+   Dark:  Moonlight      — deep navy, lavender, gold
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── PRIMITIVE TOKENS ─────────────────────────────────────── */
+:root {
+  /* Sakura blossom — the core pink family */
+  --prim-sakura-50:   #FFF0F5;
+  --prim-sakura-100:  #FFE0EB;
+  --prim-sakura-200:  #FFBDD0;
+  --prim-sakura-300:  #FF99B8;
+  --prim-sakura-400:  #E8769A;
+  --prim-sakura-500:  #C8456A;   /* brand — deep sakura, 6.3:1 on bg */
+  --prim-sakura-600:  #A83058;
+  --prim-sakura-700:  #882040;
+
+  /* Petal blush — very light surface pinks */
+  --prim-petal-50:    #FFF8FA;   /* page bg */
+  --prim-petal-100:   #FFF2F6;   /* surface */
+  --prim-petal-200:   #FFE8F0;   /* surface-2 */
+  --prim-petal-300:   #FFD8E8;   /* surface-3 */
+  --prim-petal-400:   #F8C8DA;
+  --prim-petal-500:   #F0B0C8;
+
+  /* Warm gold — stamens */
+  --prim-gold-50:     #FFF8E8;
+  --prim-gold-100:    #FCECC0;
+  --prim-gold-400:    #E8A840;
+  --prim-gold-500:    #C88828;
+  --prim-gold-600:    #A86818;
+
+  /* Bark — warm dark brown for depth */
+  --prim-bark-800:    #3C2018;
+  --prim-bark-900:    #281408;
+
+  /* Spring sky — pale blue-grey for contrast backgrounds */
+  --prim-sky-100:     #EEF4F8;
+  --prim-sky-200:     #DCE8F0;
+
+  /* Ink — dark text, rich not harsh */
+  --prim-ink-800:     #2A1828;
+  --prim-ink-700:     #3E2840;
+  --prim-ink-600:     #5A3858;
+  --prim-ink-500:     #7A5078;
+  --prim-ink-400:     #9A7098;
+  --prim-ink-300:     #BCA8C0;
+
+  /* Moonlight — dark theme base */
+  --prim-moon-950:    #060410;
+  --prim-moon-900:    #0C0818;
+  --prim-moon-800:    #160E28;
+  --prim-moon-700:    #201838;
+
+  /* Pure */
+  --prim-white:       #FFFFFF;
+
+  /* ── SPACING ─────────────────────────────────────────────── */
+  --space-1:.25rem;  --space-2:.5rem;   --space-3:.75rem;
+  --space-4:1rem;    --space-5:1.25rem; --space-6:1.5rem;
+  --space-8:2rem;    --space-10:2.5rem; --space-12:3rem;
+  --space-16:4rem;   --space-20:5rem;
+
+  /* ── RADIUS ──────────────────────────────────────────────── */
+  --radius-sm:6px;   --radius-md:10px;  --radius-lg:16px;
+  --radius-xl:22px;  --radius-2xl:28px; --radius-full:999px;
+
+  /* ── TYPOGRAPHY ──────────────────────────────────────────── */
+  --font-display: 'Shippori Mincho', serif;
+  --font-body:    'Nunito', sans-serif;
+  --font-label:   'Zen Maru Gothic', sans-serif;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.375rem;
+  --text-2xl:  1.75rem;
+  --text-3xl:  2.25rem;
+  --text-4xl:  3rem;
+
+  /* ── TRANSITIONS ─────────────────────────────────────────── */
+  --ease-fast:150ms ease;   --ease-normal:250ms ease;
+  --ease-slow:500ms ease;   --ease-theme:450ms ease;
+
+  /* ── Z-INDEX ─────────────────────────────────────────────── */
+  --z-base:1; --z-above:10; --z-nav:100; --z-modal:200;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   LIGHT THEME — Sakura Garden
+   Like rice paper with fallen petals: blush backgrounds,
+   deep ink text, true sakura pink brand.
+   ═══════════════════════════════════════════════════════════ */
+:root {
+  /* Backgrounds — petal-blush progression */
+  --color-bg-page:      #FEF6F9;   /* like bleached washi paper with a blush tint */
+  --color-bg-surface:   #FFFCFE;   /* near-white, warm */
+  --color-bg-surface-2: #FFF0F5;   /* soft petal pink */
+  --color-bg-surface-3: #FFE4EE;   /* deeper blossom */
+  --color-bg-invert:    var(--prim-ink-800);
+
+  /* Text — dark ink (warm purple-black, not harsh blue-black) */
+  --color-text-primary:   #2A1828;   /* deep ink — 13:1 contrast on petal-50 ✓ */
+  --color-text-secondary: #4A3048;   /* mid ink */
+  --color-text-tertiary:  #7A5078;   /* warm mauve */
+  --color-text-muted:     #A888A8;   /* muted mauve */
+  --color-text-on-brand:  var(--prim-white);
+  --color-text-invert:    #FFF0F5;
+
+  /* Brand — true sakura, not too orange, not too cool */
+  --color-brand:          #C8456A;   /* deep cherry blossom — 6.3:1 ✓ */
+  --color-brand-hover:    #A83058;
+  --color-brand-subtle:   #FFF0F5;
+  --color-brand-subtle-2: #FFE0EB;
+
+  /* Accent — golden stamen */
+  --color-accent:         #C88828;
+  --color-accent-subtle:  #FFF8E8;
+
+  /* Borders — blossom-pink tinted */
+  --color-border-subtle:  rgba(200,69,106,.10);
+  --color-border-default: rgba(200,69,106,.20);
+  --color-border-strong:  rgba(200,69,106,.38);
+
+  /* Nav — frosted petal */
+  --color-nav-bg:     rgba(254,246,249,.97);
+  --color-nav-border: rgba(232,118,154,.22);
+
+  /* Hero — set via JS (ThemeContext) using BASE_URL */
+  --hero-bg-image: url('hero-light.png');
+  --hero-overlay:  linear-gradient(180deg,
+    rgba(254,246,249,.18) 0%,
+    rgba(254,246,249,.08) 40%,
+    rgba(254,246,249,.80) 76%,
+    rgba(254,246,249,1.0) 100%);
+
+  /* Game detail hero — theme-aware */
+  --game-hero-bg:       linear-gradient(155deg,#2A0818 0%,#481020 40%,#381028 100%);
+  --game-hero-text:     #FFF0F5;
+  --game-hero-text-sub: rgba(255,200,220,.60);
+
+  /* Decorative sakura petals */
+  --color-moon:      #B87020;
+  --color-moon-glow: rgba(200,136,40,.22);
+  --moon-opacity:    0.16;
+  --star-opacity:    0;
+  --petal-color:     rgba(232,100,140,.42);
+
+  /* Shadows — warm, sakura-tinted */
+  --shadow-sm:    0 1px 4px  rgba(42,24,40,.07);
+  --shadow-md:    0 4px 18px rgba(42,24,40,.09);
+  --shadow-lg:    0 8px 36px rgba(42,24,40,.12);
+  --shadow-brand: 0 4px 22px rgba(200,69,106,.30);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   DARK THEME — Moonlight
+   ═══════════════════════════════════════════════════════════ */
+[data-theme='dark'] {
+  --color-bg-page:      var(--prim-moon-950);
+  --color-bg-surface:   var(--prim-moon-900);
+  --color-bg-surface-2: var(--prim-moon-800);
+  --color-bg-surface-3: var(--prim-moon-700);
+  --color-bg-invert:    #030108;
+
+  --color-text-primary:   #F8F0FC;
+  --color-text-secondary: #D0B8D8;
+  --color-text-tertiary:  #9870A8;
+  --color-text-muted:     #5C4068;
+  --color-text-on-brand:  var(--prim-white);
+  --color-text-invert:    var(--prim-moon-900);
+
+  --color-brand:          #F07898;
+  --color-brand-hover:    #D05878;
+  --color-brand-subtle:   rgba(240,120,152,.12);
+  --color-brand-subtle-2: rgba(240,120,152,.22);
+  --color-accent:         #F0C870;
+  --color-accent-subtle:  rgba(240,200,112,.12);
+
+  --color-border-subtle:  rgba(160,100,230,.13);
+  --color-border-default: rgba(170,110,240,.24);
+  --color-border-strong:  rgba(170,110,240,.48);
+
+  --color-nav-bg:     rgba(6,4,16,.94);
+  --color-nav-border: rgba(160,110,235,.18);
+
+  --hero-bg-image: url('hero-dark.png');
+  --hero-overlay:  linear-gradient(180deg,
+    rgba(6,4,16,.18) 0%, rgba(6,4,16,.10) 40%,
+    rgba(6,4,16,.68) 76%, rgba(6,4,16,1.0) 100%);
+
+  --game-hero-bg:       linear-gradient(155deg,#0C1E16,#0E1A2E,#16103A);
+  --game-hero-text:     #F2ECF8;
+  --game-hero-text-sub: rgba(200,180,220,.55);
+
+  --color-moon:      #F0C870;
+  --color-moon-glow: rgba(240,200,112,.28);
+  --moon-opacity:    1;
+  --star-opacity:    1;
+  --petal-color:     rgba(240,120,152,.28);
+
+  --shadow-sm:    0 1px 4px  rgba(0,0,0,.30);
+  --shadow-md:    0 4px 18px rgba(0,0,0,.42);
+  --shadow-lg:    0 8px 36px rgba(0,0,0,.55);
+  --shadow-brand: 0 4px 22px rgba(240,120,152,.28);
+}

@@ -1,0 +1,257 @@
+{
+  "nav": {
+    "home": "Início",
+    "games": "Jogos",
+    "about": "Sobre",
+    "contact": "Contacto",
+    "wishlist": "Lista de Desejos",
+    "news": "Notícias",
+    "social": "Social"
+  },
+  "hero": {
+    "jp": "さくら月アトリエ",
+    "title": "Sakura Moon",
+    "titleAccent": "Atelier",
+    "taglineLight": "Um jardim de sakura onde jogos aconchegantes florescem",
+    "taglineDark": "Ao luar, os jogos ganham vida",
+    "description": "Um pequeno estúdio indie que cria jogos quentes, estratégicos e lindamente ilustrados — inspirados pela estética japonesa e pela crença de que coisas pequenas feitas com cuidado são as melhores.",
+    "ctaGames": "Os Nossos Jogos",
+    "ctaAbout": "Sobre o Estúdio",
+    "themeLight": "Jardim Sakura · Claro",
+    "themeDark": "Luar · Escuro"
+  },
+  "home": {
+    "devBadge": "Em Desenvolvimento",
+    "valuesTitle": "No que acreditamos",
+    "values": {
+      "care": {
+        "title": "Feito com Cuidado",
+        "body": "Cada jogo é pequeno, intencional e construído devagar — como cerâmica, com atenção total a cada detalhe."
+      },
+      "cosy": {
+        "title": "Aconchegante mas Estratégico",
+        "body": "Estética calorosa com profundidade real por baixo. Bonito de ver. Genuinamente desafiante de dominar."
+      },
+      "everyone": {
+        "title": "Para Todos",
+        "body": "Jogos para quem gosta de pensar, sentir e ter calma. Sem pressa. Só coisas boas que valem a pena revisitar."
+      }
+    },
+    "newsletter": {
+      "badge": "Fica a par",
+      "title": "Junta-te à Comunidade",
+      "body": "Sê o primeiro a saber sobre atualizações do FARMED.COM, datas de lançamento e novidades do estúdio.",
+      "placeholder": "o.teu@email.com",
+      "cta": "Subscrever",
+      "disclaimer": "Sem spam. Cancela quando quiseres. Prometemos.",
+      "success": "Estás dentro! 🌸 Vamos mantê-te informado."
+    },
+    "kuro": {
+      "badge": "Mascote do Estúdio",
+      "title": "Conhece o Kuro",
+      "body": "O gato preto que observa da lua. Aparece em todos os jogos que fazemos — curioso, quieto e sempre presente.",
+      "note": "Ele tem opiniões sobre o Inspetor."
+    }
+  },
+  "games": {
+    "badge": "Os Nossos Jogos",
+    "title": "O que estamos a criar",
+    "subtitle": "Jogos pequenos. Feitos com cuidado. Que valem o teu tempo.",
+    "farmed": {
+      "status": "Em Desenvolvimento",
+      "title": "FARMED.COM",
+      "subtitle": "Roguelike de Quinta com Sudoku",
+      "platforms": [
+        "Steam",
+        "itch.io",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "tagline": "Quatro estações. Dois agricultores. Um drone. Um homem com uma prancheta.",
+      "description": "Um casal idoso perde a quinta numa tempestade durante a noite. O neto mostra-lhes o FARMED.COM. Ela faz perguntas práticas. Ele pergunta o que é um drone.",
+      "description2": "Cada nó do mapa é uma encomenda de cliente. Cada encomenda é um puzzle Sudoku. Resolve a grelha, colhe as culturas certas, completa a entrega. As estações mudam. O tabuleiro fica mais difícil. No final do Inverno, um homem com uma prancheta chega. Ele não é mau. Ele é o padrão.",
+      "cta": "Saber Mais",
+      "gridCaption": "Regras Sudoku · Sem números, só culturas",
+      "seasons": {
+        "spring": "Primavera — O Rival",
+        "summer": "Verão — A Vaga de Calor",
+        "autumn": "Outono — A Cultura Lendária",
+        "winter": "Inverno — A Grande Geada",
+        "final": "Final — O Inspetor"
+      },
+      "features": [
+        {
+          "icon": "🌾",
+          "title": "Sudoku de Culturas",
+          "body": "9 culturas sazonais substituem o 1–9. Números nunca aparecem no tabuleiro."
+        },
+        {
+          "icon": "🗺",
+          "title": "Mapa Roguelike",
+          "body": "Mapa de nós procedural como Slay the Spire. Escolhe o teu caminho por cada estação."
+        },
+        {
+          "icon": "🚁",
+          "title": "O Drone",
+          "body": "O Drone Azul (#3A78B4) recolhe cada entrega. Cada avaliação muda a tua classificação na loja."
+        },
+        {
+          "icon": "⏰",
+          "title": "O Sino da Quinta",
+          "body": "Um relógio de 30 segundos avalia o tabuleiro. Culturas erradas danificam a tua Vida do Solo."
+        },
+        {
+          "icon": "🛠",
+          "title": "Ferramentas da Quinta",
+          "body": "Desbloqueia ferramentas em cada jogada que modificam como jogas. Nunca duas jogadas iguais."
+        },
+        {
+          "icon": "📋",
+          "title": "O Inspetor",
+          "body": "O verdadeiro chefe final. Aparece depois do Inverno. Tem uma prancheta. É minucioso."
+        }
+      ]
+    },
+    "comingSoon": {
+      "title": "Mais jogos a caminho",
+      "body": "O FARMED.COM é só o começo. O Sakura Moon Atelier vai continuar a criar jogos pequenos, aconchegantes e estratégicos com cuidado.",
+      "cta": "Segue-nos para atualizações"
+    }
+  },
+  "about": {
+    "badge": "A Nossa História",
+    "title": "Quem somos",
+    "subtitle": "Um estúdio construído em pequenos momentos, noites tardias e infinitas chávenas de café.",
+    "studio": {
+      "title": "O Estúdio",
+      "body1": "O Sakura Moon Atelier é um micro estúdio indie — atualmente uma operação de uma pessoa, com o Kuro a fornecer apoio moral e controlo de qualidade ocasional.",
+      "body2": "Fazemos jogos aconchegantes e estratégicos com ilustrações bonitas e profundidade real. Inspirados pela estética japonesa, pelo calor do Studio Ghibli e pelos jogos roguelike que se recusam a deixar-te ir.",
+      "body3": "O nome vem das duas coisas que mais parecem casa: flores de cerejeira na primavera e a quietude de uma noite de luar."
+    },
+    "founder": {
+      "badge": "Fundadora & Desenvolvedora",
+      "name": "Ana",
+      "role": "Engenheira · Amante de Gatos · Entusiasta da Magia · Construtora de Mundos Aconchegantes",
+      "bio1": "De dia, engenheira de software e arquiteta de frameworks iOS. De noite, a pessoa responsável pelo FARMED.COM, o puzzle de rotação de culturas Sudoku que provavelmente não deveria existir, mas absolutamente deve.",
+      "bio2": "A ensinar desenvolvimento Android no ISEL de dia, a desenhar roguelikes aconchegantes de noite — sempre com uma chávena de café por perto e o Kuro a observar de algum lugar ligeiramente demasiado perto do ecrã.",
+      "essentials": "Os Seus Essenciais",
+      "items": [
+        "Laptop",
+        "Tablet Mágico",
+        "Café",
+        "Óculos de Código",
+        "Marcador Sakura",
+        "Varinha / Stylus"
+      ]
+    },
+    "kuro": {
+      "badge": "Mascote do Estúdio",
+      "title": "Kuro",
+      "role": "Diretor de Qualidade · Observador da Lua · Distrator Profissional",
+      "bio": "Um pequeno gato preto com grandes opiniões. O Kuro aparece em todos os jogos do Sakura Moon Atelier. Estava lá quando o FARMED.COM foi desenhado. Estará lá no julgamento final do Inspetor."
+    },
+    "values": {
+      "title": "O que nos guia"
+    }
+  },
+  "contact": {
+    "badge": "Fala Connosco",
+    "title": "Diz olá",
+    "subtitle": "Adoramos ouvir de ti — seja sobre o jogo, o estúdio, ou só para dizer olá.",
+    "form": {
+      "name": "O teu nome",
+      "email": "O teu email",
+      "subject": "Assunto",
+      "subjects": [
+        "Pergunta geral",
+        "Imprensa / Média",
+        "Parceria",
+        "Reportar bug",
+        "Só a dizer olá 🌸"
+      ],
+      "message": "A tua mensagem",
+      "send": "Enviar Mensagem",
+      "sending": "A enviar...",
+      "success": "Mensagem enviada! 🌸 Respondemos em breve.",
+      "error": "Algo correu mal. Por favor tenta novamente ou envia-nos um email diretamente.",
+      "note": "Normalmente respondemos em 2–3 dias úteis."
+    },
+    "social": {
+      "title": "Encontra-nos online",
+      "discord": "Discord",
+      "twitter": "Twitter / X",
+      "instagram": "Instagram",
+      "itchio": "itch.io"
+    },
+    "press": {
+      "title": "Imprensa & Média",
+      "body": "À procura de kit de imprensa, capturas de ecrã ou recursos de média? Temos tudo.",
+      "cta": "Descarregar Kit de Imprensa"
+    }
+  },
+  "footer": {
+    "tagline": "Jogos aconchegantes feitos com cuidado",
+    "links": {
+      "home": "Início",
+      "games": "Jogos",
+      "about": "Sobre",
+      "contact": "Contacto",
+      "press": "Kit de Imprensa",
+      "privacy": "Privacidade"
+    },
+    "copyright": "© 2026 Sakura Moon Atelier · Feito com 🌸 em Portugal"
+  },
+  "special": {
+    "construction": {
+      "emoji": "🏗️",
+      "badge": "Em Construção",
+      "title": "Estamos a construir algo aconchegante",
+      "body": "Esta página ainda está a ser criada com cuidado. Como um bom puzzle Sudoku, leva tempo a fazer corretamente. Volta em breve!",
+      "kuroMessage": "O Kuro diz: a paciência é uma virtude, e também aconchegante.",
+      "cta": "Voltar ao início"
+    },
+    "maintenance": {
+      "emoji": "🌸",
+      "badge": "Voltamos Já",
+      "title": "A fazer uma pausa rápida",
+      "body": "O Sakura Moon Atelier está a fazer alguma manutenção mágica agora. Voltamos antes do Sino da Quinta tocar. Vai buscar um café!",
+      "kuroMessage": "O Kuro está a supervisionar as reparações.",
+      "cta": "Atualizar a página"
+    },
+    "offline": {
+      "emoji": "📡",
+      "badge": "Sem Ligação",
+      "title": "Estás offline",
+      "body": "Parece que o drone não consegue chegar ao servidor agora. Verifica a tua ligação e tenta novamente — a quinta estará à espera.",
+      "kuroMessage": "O Kuro também está offline. Acha-o pacífico.",
+      "cta": "Tentar novamente"
+    },
+    "notFound": {
+      "emoji": "🐱",
+      "badge": "404",
+      "title": "O Kuro perdeu-se",
+      "body": "Esta página não existe — ou talvez tenha vagueado como um pequeno gato preto. Não te preocupes, vamos ajudar-te a encontrar o caminho de volta.",
+      "kuroMessage": "Ele está algures na lua. Provavelmente.",
+      "cta": "Voltar ao início"
+    },
+    "error": {
+      "emoji": "🌩️",
+      "badge": "Erro",
+      "title": "Algo correu mal",
+      "body": "Ocorreu um erro inesperado. Até as melhores quintas têm um dia de má colheita. Por favor tenta novamente ou volta mais tarde.",
+      "kuroMessage": "O Kuro derrubou alguma coisa. Estamos a resolver.",
+      "cta": "Recarregar",
+      "ctaAlt": "Ir para o início"
+    }
+  },
+  "common": {
+    "learnMore": "Saber Mais",
+    "comingSoon": "Em Breve",
+    "inDevelopment": "Em Desenvolvimento",
+    "backHome": "Voltar ao Início",
+    "viewAll": "Ver Todos",
+    "close": "Fechar",
+    "loading": "A carregar..."
+  }
+}

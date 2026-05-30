@@ -1,0 +1,257 @@
+{
+  "nav": {
+    "home": "Home",
+    "games": "Games",
+    "about": "About",
+    "contact": "Contact",
+    "wishlist": "Wishlist",
+    "news": "News",
+    "social": "Social"
+  },
+  "hero": {
+    "jp": "さくら月アトリエ",
+    "title": "Sakura Moon",
+    "titleAccent": "Atelier",
+    "taglineLight": "A sakura garden where cosy games bloom",
+    "taglineDark": "Under moonlight, games come alive",
+    "description": "A small indie studio crafting warm, strategic, beautifully illustrated games — inspired by Japanese aesthetics and the belief that small things made carefully are the best things.",
+    "ctaGames": "Our Games",
+    "ctaAbout": "About the Studio",
+    "themeLight": "Sakura Garden · Light",
+    "themeDark": "Moonlight · Dark"
+  },
+  "home": {
+    "devBadge": "Currently in Development",
+    "valuesTitle": "What we believe",
+    "values": {
+      "care": {
+        "title": "Made with Care",
+        "body": "Every game is small, intentional, and crafted slowly — like pottery, made with full attention to every detail."
+      },
+      "cosy": {
+        "title": "Cosy but Strategic",
+        "body": "Warm aesthetics with real depth underneath. Beautiful to look at. Genuinely challenging to master."
+      },
+      "everyone": {
+        "title": "For Everyone",
+        "body": "Games for players who like to think, feel, and take their time. No rushing. Just good things worth returning to."
+      }
+    },
+    "newsletter": {
+      "badge": "Stay in the loop",
+      "title": "Join the Community",
+      "body": "Be the first to know about FARMED.COM updates, release dates, and cosy studio news.",
+      "placeholder": "your@email.com",
+      "cta": "Subscribe",
+      "disclaimer": "No spam. Unsubscribe anytime. We promise.",
+      "success": "You're in! 🌸 We'll keep you posted."
+    },
+    "kuro": {
+      "badge": "Studio Mascot",
+      "title": "Meet Kuro",
+      "body": "The black cat who watches from the moon. He appears in every game we make — curious, quiet, and always present.",
+      "note": "He has opinions about the Inspector."
+    }
+  },
+  "games": {
+    "badge": "Our Games",
+    "title": "What we're making",
+    "subtitle": "Small games. Made carefully. Worth your time.",
+    "farmed": {
+      "status": "In Development",
+      "title": "FARMED.COM",
+      "subtitle": "Sudoku Farm Roguelike",
+      "platforms": [
+        "Steam",
+        "itch.io",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "tagline": "Four seasons. Two farmers. One drone. A man with a clipboard.",
+      "description": "An elderly farming couple lose their farm to a storm overnight. Their grandson shows them FARMED.COM. She asks practical questions. He asks what a drone is.",
+      "description2": "Every map node is a customer order. Every order is a Sudoku puzzle. Solve the grid, harvest the right crops, fulfil the delivery. Seasons change. The board gets harder. At the end of Winter, a man with a clipboard arrives. He is not unkind. He is the standard.",
+      "cta": "Learn More",
+      "gridCaption": "Sudoku rules · No numbers, only crops",
+      "seasons": {
+        "spring": "Spring — The Rival",
+        "summer": "Summer — The Heatwave",
+        "autumn": "Autumn — The Legendary Crop",
+        "winter": "Winter — The Great Frost",
+        "final": "Final — The Inspector"
+      },
+      "features": [
+        {
+          "icon": "🌾",
+          "title": "Crop Sudoku",
+          "body": "9 seasonal crops replace 1–9. No numbers ever appear on the board."
+        },
+        {
+          "icon": "🗺",
+          "title": "Roguelike Map",
+          "body": "Procedural node map like Slay the Spire. Choose your path through each season."
+        },
+        {
+          "icon": "🚁",
+          "title": "The Drone",
+          "body": "Drone Blue (#3A78B4) collects every delivery. Every review changes your store rating."
+        },
+        {
+          "icon": "⏰",
+          "title": "The Farm Bell",
+          "body": "A 30-second clock evaluates the board. Wrong crops damage your Soil Life."
+        },
+        {
+          "icon": "🛠",
+          "title": "Farm Tools",
+          "body": "Unlock tools each run that modify how you play. No two runs are the same."
+        },
+        {
+          "icon": "📋",
+          "title": "The Inspector",
+          "body": "The true final boss. He appears after Winter. He has a clipboard. He is thorough."
+        }
+      ]
+    },
+    "comingSoon": {
+      "title": "More games coming",
+      "body": "FARMED.COM is just the beginning. Sakura Moon Atelier will keep crafting small, cosy, strategic games with care.",
+      "cta": "Follow us for updates"
+    }
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "Who we are",
+    "subtitle": "A studio built in small moments, late evenings, and endless cups of coffee.",
+    "studio": {
+      "title": "The Studio",
+      "body1": "Sakura Moon Atelier is a micro indie game studio — currently a one-person operation, with Kuro providing moral support and occasional quality assurance.",
+      "body2": "We make cosy, strategic games with beautiful illustrations and real depth. Inspired by Japanese aesthetics, Studio Ghibli's warmth, and the roguelike games that refuse to let you go.",
+      "body3": "The name comes from the two things that feel most like home: sakura blossoms in spring, and the quiet of a moonlit night."
+    },
+    "founder": {
+      "badge": "Founder & Developer",
+      "name": "Ana",
+      "role": "Engineer · Cat Lover · Magic Enthusiast · Builder of Cosy Worlds",
+      "bio1": "By day, a software engineer and iOS framework architect. By night, the person responsible for FARMED.COM, the Sudoku crop rotation puzzle that probably shouldn't exist but absolutely should.",
+      "bio2": "Teaching Android development at ISEL by day, designing cosy roguelikes by night — always with a cup of coffee nearby and Kuro watching from somewhere slightly too close to the screen.",
+      "essentials": "Her Essentials",
+      "items": [
+        "Laptop",
+        "Magic Tablet",
+        "Coffee",
+        "Code Glasses",
+        "Sakura Bookmark",
+        "Wand / Stylus"
+      ]
+    },
+    "kuro": {
+      "badge": "Studio Mascot",
+      "title": "Kuro",
+      "role": "Chief Quality Officer · Moon Watcher · Professional Distractor",
+      "bio": "A small black cat with big opinions. Kuro appears in every game Sakura Moon Atelier makes. He was there when FARMED.COM was designed. He will be there at the Inspector's final judgment."
+    },
+    "values": {
+      "title": "What guides us"
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Say hello",
+    "subtitle": "We'd love to hear from you — whether it's about the game, the studio, or just to say hi.",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "subject": "Subject",
+      "subjects": [
+        "General inquiry",
+        "Press / Media",
+        "Partnership",
+        "Bug report",
+        "Just saying hi 🌸"
+      ],
+      "message": "Your message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! 🌸 We'll get back to you soon.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "note": "We typically respond within 2–3 business days."
+    },
+    "social": {
+      "title": "Find us online",
+      "discord": "Discord",
+      "twitter": "Twitter / X",
+      "instagram": "Instagram",
+      "itchio": "itch.io"
+    },
+    "press": {
+      "title": "Press & Media",
+      "body": "Looking for a press kit, screenshots, or media assets? We've got you.",
+      "cta": "Download Press Kit"
+    }
+  },
+  "footer": {
+    "tagline": "Cosy games made with care",
+    "links": {
+      "home": "Home",
+      "games": "Games",
+      "about": "About",
+      "contact": "Contact",
+      "press": "Press Kit",
+      "privacy": "Privacy"
+    },
+    "copyright": "© 2026 Sakura Moon Atelier · Made with 🌸 in Portugal"
+  },
+  "special": {
+    "construction": {
+      "emoji": "🏗️",
+      "badge": "Under Construction",
+      "title": "We're building something cosy",
+      "body": "This page is still being crafted with care. Like a good Sudoku puzzle, it takes time to get right. Please check back soon!",
+      "kuroMessage": "Kuro says: patience is a virtue, and also cosy.",
+      "cta": "Go back home"
+    },
+    "maintenance": {
+      "emoji": "🌸",
+      "badge": "Back Soon",
+      "title": "Taking a quick break",
+      "body": "Sakura Moon Atelier is doing some maintenance magic right now. We'll be back before the Farm Bell rings. Grab a coffee!",
+      "kuroMessage": "Kuro is currently supervising the repairs.",
+      "cta": "Refresh the page"
+    },
+    "offline": {
+      "emoji": "📡",
+      "badge": "No Connection",
+      "title": "You're offline",
+      "body": "Looks like the drone can't reach the server right now. Check your connection and try again — the farm will be waiting.",
+      "kuroMessage": "Kuro is also offline. He finds it peaceful.",
+      "cta": "Try again"
+    },
+    "notFound": {
+      "emoji": "🐱",
+      "badge": "404",
+      "title": "Kuro got lost",
+      "body": "This page doesn't exist — or maybe it wandered off like a small black cat. Don't worry, we'll help you find your way back.",
+      "kuroMessage": "He's somewhere on the moon. Probably.",
+      "cta": "Back to home"
+    },
+    "error": {
+      "emoji": "🌩️",
+      "badge": "Error",
+      "title": "Something went wrong",
+      "body": "An unexpected error occurred. Even the best farms have a bad harvest day. Please try again or come back later.",
+      "kuroMessage": "Kuro knocked something over. We're fixing it.",
+      "cta": "Reload",
+      "ctaAlt": "Go home"
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "comingSoon": "Coming Soon",
+    "inDevelopment": "In Development",
+    "backHome": "Back to Home",
+    "viewAll": "View All",
+    "close": "Close",
+    "loading": "Loading..."
+  }
+}
