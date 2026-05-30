@@ -54,14 +54,10 @@ export default function Home({ setPage, setNewsId }) {
     <main>
       {/* ── HERO ──────────────────────────────────────── */}
       <section className="hero" aria-label="Studio hero">
-        <div className="hero-bg" aria-hidden="true" />
+        <div className="hero-bg" style={{ backgroundImage: `url('${asset(dark ? 'hero-dark.png' : 'hero-light.png')}')` }} aria-hidden="true" />
         <div className="hero-overlay" aria-hidden="true" />
         <Stars />
         <Petals />
-        <div className="hero-moon" aria-hidden="true">
-          <div className="hero-moon-ring" />
-          <div className="hero-moon-disc" />
-        </div>
         <span className="hero-kuro" aria-hidden="true">🐈‍⬛</span>
 
         <div className="hero-content">

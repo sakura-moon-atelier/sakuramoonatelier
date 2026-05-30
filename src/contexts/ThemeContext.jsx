@@ -1,5 +1,4 @@
 import { createContext, useContext, useState, useEffect } from 'react'
-import { cssUrl } from '../utils/assets.js'
 
 const ThemeContext = createContext(null)
 
@@ -17,10 +16,7 @@ export function ThemeProvider({ children }) {
 
   useEffect(() => {
     const root = document.documentElement
-    // Set data-theme for CSS semantic token overrides
     root.setAttribute('data-theme', dark ? 'dark' : 'light')
-    // Set hero CSS vars from JS so BASE_URL is applied correctly (fixes local + GitHub Pages)
-    root.style.setProperty('--hero-bg-image', cssUrl(dark ? 'hero-dark.png' : 'hero-light.png'))
   }, [dark])
 
   return (

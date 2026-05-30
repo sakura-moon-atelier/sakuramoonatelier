@@ -57,7 +57,7 @@ Engineer by day. Game developer by the light of a laptop screen. Always accompan
 
 FARMED.COM — a Sudoku farm roguelike. It shouldn't exist but absolutely should. More details coming soon.
     `,
-    tags: ['studio', 'announcement', 'identity'],
+    tags: ['studio', 'announcement', 'identity', 'test', 'test1'],
   },
   {
     id: 'farmed-concept',

@@ -128,8 +128,6 @@
   --color-nav-bg:     rgba(254,246,249,.97);
   --color-nav-border: rgba(232,118,154,.22);
 
-  /* Hero — set via JS (ThemeContext) using BASE_URL */
-  --hero-bg-image: url('hero-light.png');
   --hero-overlay:  linear-gradient(180deg,
     rgba(254,246,249,.18) 0%,
     rgba(254,246,249,.08) 40%,
@@ -186,7 +184,6 @@
   --color-nav-bg:     rgba(6,4,16,.94);
   --color-nav-border: rgba(160,110,235,.18);
 
-  --hero-bg-image: url('hero-dark.png');
   --hero-overlay:  linear-gradient(180deg,
     rgba(6,4,16,.18) 0%, rgba(6,4,16,.10) 40%,
     rgba(6,4,16,.68) 76%, rgba(6,4,16,1.0) 100%);
